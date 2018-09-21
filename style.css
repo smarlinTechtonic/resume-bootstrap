@@ -3,10 +3,16 @@ body {
 }
 
 .jumbotron, .jumbotron-fluid {
-  padding: 50px;
-  margin: 25px;
+  margin: 5px;
+  padding-left: 10px;
 }
 
+@media (min-width: 768px) {
+  .jumbotron, .jumbotron-fluid {
+    margin: 50px;
+    padding-left: 20px;
+  }
+}
 .display-4 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -32,11 +38,15 @@ a:hover {
 }
 
 .padded-bottom {
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 li {
   display: inline-block;
   margin-right: 40px;
   margin-top: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
 }
